@@ -4,9 +4,9 @@ import xgboost as xgb
 import pandas as pd
 import os
 
-app = Flask(__name__)
+application = Flask(__name__)
 
-@app.route('/predict', methods=['POST']) 
+@application.route('/predict', methods=['POST']) 
 def predict():
     model_filename = os.path.join(os.getcwd(), 'bst.sav')
     loaded_model = pickle.load(open(model_filename, "rb"))
@@ -17,4 +17,5 @@ def predict():
     return int(y_pred[0])
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    application.run(host='0.0.0.0', port=8000)
+    
