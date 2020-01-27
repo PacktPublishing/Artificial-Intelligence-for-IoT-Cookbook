@@ -24,8 +24,8 @@ def zscore(data):
 def sendAlert(lastestGyro,latestAccel):
         alert = {'Gyro':lastestGyro, 'Accel':latestAccel}
         message = json.dumps(alert)
-        producer.send(device+'alerts' ,key=bytes("alert", encoding='utf-8'),value=bytes(message, encoding='utf-8'))
-
+      #  producer.send(device+'alerts' ,key=bytes("alert", encoding='utf-8'),value=bytes(message, encoding='utf-8'))
+        print(message)
 if __name__ == '__main__':  
     
 
@@ -33,7 +33,7 @@ if __name__ == '__main__':
     if x > 1000: 
         gyro.insert(0,sense.gyro_raw)
         accel.insert(0,sense.accel_raw)
-        time.sleep(1)
+        #time.sleep(1)
         x = x+ 1
     
     while True:
