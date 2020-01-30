@@ -20,4 +20,4 @@ for (timestamp, value) in score.iteritems():
     anom_score.append([t_str, value])
 
 for score in anom_score:
-    print(score)
+    print(score)    
