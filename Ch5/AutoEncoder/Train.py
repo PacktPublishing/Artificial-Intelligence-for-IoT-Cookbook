@@ -7,7 +7,7 @@ import pickle
 if __name__ == '__main__':  
 # train AutoEncoder detector
     contamination = 0.1
-    clf_name = 'AutoEncoder'
+ 
 
     X_train = np.loadtxt('X_train.txt', dtype=float)
     y_train = np.loadtxt('y_train.txt', dtype=float)
@@ -28,6 +28,6 @@ if __name__ == '__main__':
 
     # evaluate and print the results
     print("\nOn Test Data:")
-    evaluate_print(clf_name, y_test, y_test_scores)
+    evaluate_print('AutoEncoder', y_test, y_test_scores)
 
     pickle.dump( clf, open( "autoencoder.p", "wb" ) )
