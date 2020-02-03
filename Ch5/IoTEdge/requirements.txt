@@ -1,0 +1,3 @@
+azure-iot-device>=2.0.0rc10
+sense-hat
+pandas
