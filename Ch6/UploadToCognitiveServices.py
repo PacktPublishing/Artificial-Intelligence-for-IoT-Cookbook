@@ -2,10 +2,10 @@ from azure.cognitiveservices.vision.customvision.training import CustomVisionTra
 from azure.cognitiveservices.vision.customvision.training.models import ImageFileCreateEntry
 
 from pathlib import Path
-ENDPOINT = "https://westus2.api.cognitive.microsoft.com"
-training_key = "aa9afbe3879c45d7aa2326c58867187d"
+ENDPOINT = "https://aibenchtest.cognitiveservices.azure.com/"
+training_key = "4e5de237206c4d33b1ec8bb93a199f17"
 trainer = CustomVisionTrainingClient(training_key, endpoint=ENDPOINT)
-projectid="081e259d-c82a-4a49-acc6-27fc1adf8539"
+projectid="6ea65006-0a20-4518-b916-7eca7f1f197e"
 
 base_image_url = "images/"
 image_list = []
@@ -21,9 +21,10 @@ for path in pathlist:
             image_list.append(ImageFileCreateEntry(name=file_name, contents=image_contents.read()))
     else:
         x = 0
-        image_list = []
+        
 
         upload_result = trainer.create_images_from_files(projectid, images=image_list)
+        image_list = []
         if not upload_result.is_batch_successful:
             print("Image batch upload failed.")
             exit(-1)
