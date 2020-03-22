@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WakeWordJava</string>
+    <string name="wake_word">Wake Word</string>
+</resources>
