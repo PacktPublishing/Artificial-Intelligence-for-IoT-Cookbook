@@ -1,0 +1,23 @@
+Question	Answer	Source	Metadata
+How many calories does a burger have	500 calories	store_info	subject:burger
+how may calories does a milkshake have	600 calories	store_info	subject:milkshake
+How many calories do french fries have	1000	store_info	subject:burger
+When are you open	We are open from 7 am 10 11 pm Monday through Saturday	store_info	subject:store
+Who is your founder	Mike Roshak	store_info	subject:business
+What is the nutritional information for Milk shake	600 calories, 50 g of fat	store_info	subject:milkshake
+What is the nutritional information for a burger	500 calories, 30 g of fat	store_info	subject:burger
+Do you use MSG	Yes it is delicious	store_info	subject:burger
+Do you use GMO	Yes it is delicious	store_info	subject:burger
+No you sell beer?	No	store_info	subject:store
+Can I get my burger well done	No, This is not burger king you can not have it your way.	store_info	subject:burger
+Do you have breakfast	No, This is not burger king you can not have it your way.	store_info	subject:burger
+Where are you located	Kent, WA USA	store_info	subject:store
+You you better than Dicks Burgers?	No, They are amazing.	store_info	subject:burger
+Do you selll Buffalo Burgers?	No	store_info	subject:store
+Do you sell venison?	Only you kill it first.	store_info	subject:store
+Do you have chicken Sandwiches?	No! Only Beef.	store_info	subject:store
+Is your burgers flaim broiled	No they are boiled.	store_info	subject:store
+Do you have vegetarian options?	You could eat just French Fries.	store_info	subject:store
+What flavors of Milkshakes do you have	Brown, White, Pink	store_info	subject:store
+No you have any healthy options?	Water	store_info	subject:store
+Can I speak to your manager	We have a flat structure here so everyone is a manager	store_info	subject:store
