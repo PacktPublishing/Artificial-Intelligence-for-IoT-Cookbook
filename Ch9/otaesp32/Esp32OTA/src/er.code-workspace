@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "Esp32OTA",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"cmake.sourceDirectory": "${workspaceFolder}/Esp32OTA"
+	}
+}
