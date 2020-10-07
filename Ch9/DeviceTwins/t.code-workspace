@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "EnvironmentMonitor",
+			"path": "../../Ch8/EnvironmentMonitor/EnvironmentMonitor"
+		}
+	],
+	"settings": {
+		"databricks.workspaceConfiguration": {
+			"workspaceGuid": "fe5d63de-a92a-2120-74be-11a76cf24b48",
+			"lastActiveConnection": "MikesBrick"
+		},
+		"python.dataScience.codeRegularExpression": "^(# COMMAND ----------|#\\s*%%|#\\s*\\<codecell\\>|#\\s*In\\[\\d*?\\]|#\\s*In\\[ \\])"
+	}
+}
