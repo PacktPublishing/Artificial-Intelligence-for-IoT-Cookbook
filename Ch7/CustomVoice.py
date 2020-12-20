@@ -1,9 +1,9 @@
 import requests
 from playsound import playsound
 
-Endpoint_key = "bd269c1dd30041bea159c72265d8b153"
-location = 'australiaeast'
-deploymentid = 'd37b6177-9138-4d7e-a934-82f095330d39' 
+Endpoint_key = ''
+location = ''
+deploymentid = '' 
 project_name = 'Mikes Demo'
 text = "Hey, this is mikes demo"
 def get_token():

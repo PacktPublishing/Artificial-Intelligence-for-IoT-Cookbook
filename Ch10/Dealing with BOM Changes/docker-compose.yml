@@ -18,3 +18,4 @@ services:
 
 volumes:
   mysql_db_data_container:
+    http://Lucky.Me
