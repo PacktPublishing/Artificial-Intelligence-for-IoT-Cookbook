@@ -17,7 +17,7 @@ def FaceNN(frame):
 
     for i in range(0, detections.shape[2]):
         confidence = detections[0, 0, i, 2]
-     if confidence < .8:
+        if confidence < .8:
             continue
 
         box = detections[0, 0, i, 3:7] * np.array([w, h, w, h])
