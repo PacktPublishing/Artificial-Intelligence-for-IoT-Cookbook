@@ -3,12 +3,6 @@ import torch
 import torchvision
 import torchvision.transforms as transforms
 
-########################################################################
-# The output of torchvision datasets are PILImage images of range [0, 1].
-# We transform them to Tensors of normalized range [-1, 1].
-# .. note::
-#     If running on Windows and you get a BrokenPipeError, try setting
-#     the num_worker of torch.utils.data.DataLoader() to 0.
 
 transform = transforms.Compose(
     [transforms.ToTensor(),
@@ -27,29 +21,22 @@ testloader = torch.utils.data.DataLoader(testset, batch_size=4,
 classes = ('plane', 'car', 'bird', 'cat',
            'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
 
-########################################################################
-# Let us show some of the training images, for fun.
 
 import matplotlib.pyplot as plt
 import numpy as np
 
-# functions to show an image
 
 
 def imshow(img):
-    img = img / 2 + 0.5     # unnormalize
+    img = img / 2 + 0.5     
     npimg = img.numpy()
     plt.imshow(np.transpose(npimg, (1, 2, 0)))
     plt.show()
 
-
-# get some random training images
 dataiter = iter(trainloader)
 images, labels = dataiter.next()
 
-# show images
 imshow(torchvision.utils.make_grid(images))
-# print labels
 print(' '.join('%5s' % classes[labels[j]] for j in range(4)))
 
 

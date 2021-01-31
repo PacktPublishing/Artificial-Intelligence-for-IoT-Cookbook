@@ -2,10 +2,10 @@ from azure.cognitiveservices.vision.customvision.training import CustomVisionTra
 from azure.cognitiveservices.vision.customvision.training.models import ImageFileCreateEntry
 
 from pathlib import Path
-ENDPOINT = "https://aibenchtest.cognitiveservices.azure.com/"
-training_key = "4e5de237206c4d33b1ec8bb93a199f17"
+ENDPOINT = "https://YOURCOGNITIVESRVICESNAME.cognitiveservices.azure.com/"
+training_key = "YOURTRAININGID"
 trainer = CustomVisionTrainingClient(training_key, endpoint=ENDPOINT)
-projectid="6ea65006-0a20-4518-b916-7eca7f1f197e"
+projectid="YOURPROJECTID"
 
 base_image_url = "images/"
 image_list = []
