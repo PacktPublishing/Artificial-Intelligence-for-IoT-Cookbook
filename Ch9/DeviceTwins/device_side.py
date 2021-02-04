@@ -4,7 +4,7 @@ from azure.iot.device.aio import IoTHubDeviceClient
 
 
 async def main():
-    device_client = IoTHubDeviceClient.create_from_connection_string("HostName=University-IoT-Cart.azure-devices.net;DeviceId=Pi_Envirnoment;SharedAccessKey=TWnLYcXf/sxYoacZry0akx7knPOa2gSojrkZ7oyBfX0=")
+    device_client = IoTHubDeviceClient.create_from_connection_string("HostName=YOURAZUREACCOUNT.azure-devices.net;DeviceId=Pi_Envirnoment;SharedAccessKey=YOURSHAREDACCESSKEY")
 
     await device_client.connect()
 

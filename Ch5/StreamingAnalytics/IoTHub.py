@@ -5,7 +5,7 @@ import json
 
 
 msg = '{{"gyro": {gyro},"accel": {accel}}}'
-client = IoTHubDeviceClient.create_from_connection_string("HostName=microtemp.azure-devices.net;DeviceId=mikesiot;SharedAccessKey=F39KN2BvgeotC9oxy+ynwOkfYzMSRKQ+/GKfN4XZM60=")
+client = IoTHubDeviceClient.create_from_connection_string("HostName=YOURHUBNAME.azure-devices.net;DeviceId=YOURDEVICEID;SharedAccessKey=YOUR KEY HERE")
 sense = SenseHat()
 sense.set_imu_config(True, True, True) 
 

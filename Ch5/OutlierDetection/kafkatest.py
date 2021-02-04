@@ -1,8 +1,8 @@
 from kafka import KafkaProducer
 import json
 
-device=  'test'
-server = '10.121.122.64:9092'
+device=  'YOURDEVICEID'
+server = '127.0.0.1:9092'
 
 producer = KafkaProducer(bootstrap_servers=server)
 alert = {'button':'event.action', 'direction':'event.direction', 'device':'device'}

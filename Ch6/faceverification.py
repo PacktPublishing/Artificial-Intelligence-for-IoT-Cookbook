@@ -17,9 +17,9 @@ from azure.cognitiveservices.vision.face.models import TrainingStatusType, Perso
 
 
 
-KEY = "fe989e00971e4958aca7bec748ab1859"
+KEY = "YOURCOGNITIVESERVICESKEY"
 
-ENDPOINT = "https://benchtest-face.cognitiveservices.azure.com/"
+ENDPOINT = "https://YOURCOGNITIVESERVICESACCOUNT.cognitiveservices.azure.com/"
 
 
 '''
@@ -33,7 +33,7 @@ test_image_array = glob.glob(os.path.join(IMAGES_FOLDER, group_photo))
 image = open(test_image_array[0], 'r+b')
 
 # Base url for the Verify and Facelist/Large Facelist operations
-IMAGE_BASE_URL = 'https://csdx.blob.core.windows.net/resources/Face/Images/'
+IMAGE_BASE_URL = 'https://YOURBLOBNAME.blob.core.windows.net/resources/Face/Images/'
 
 
 # Create a list to hold the target photos of the same person
