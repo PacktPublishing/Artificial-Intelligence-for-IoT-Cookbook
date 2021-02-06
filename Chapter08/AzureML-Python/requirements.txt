@@ -1,0 +1,3 @@
+azureml-core
+azureml-sdk[explain,automl,notebooks,tensorboard]
+configparser==3.8.1
