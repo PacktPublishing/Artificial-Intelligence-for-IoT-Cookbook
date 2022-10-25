@@ -74,3 +74,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 **Michael Roshak** is a cloud architect and strategist with extensive subject matter expertise in enterprise cloud transformation programs and infrastructure modernization through designing, and deploying cloud-oriented solutions and architectures. He is responsible for providing strategic advisory for cloud adoption, consultative technical sales, and driving broad cloud services consumption with highly strategic accounts across multiple industries.	
 
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781838981983">https://packt.link/free-ebook/9781838981983 </a> </p>
